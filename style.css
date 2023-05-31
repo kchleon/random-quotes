@@ -1,0 +1,79 @@
+/* UNFINISHED */
+body {
+    font-family: arial;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    position: relative;
+    padding-bottom: 100px;
+    text-align: center;
+    font: 1.2em "Dancing Script";
+}
+
+#quote-box {
+    position: relative;
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: #fff;
+}
+
+#text {
+    text-align: center;
+    width: 450px;
+    height: auto;
+    padding: 10px 0;
+    font: 1.2em "Dancing Script";
+    font-weight: 500;
+    font-size: 1.75em;
+}
+
+#text i {
+    font-size: 1em;
+    margin-right: 0.4em;
+}
+
+#author {
+    text-align: right;
+    padding: 10px 0;
+    font: 1.2em "Dancing Script";
+    font-size: 1.25em;
+}
+
+.button {
+    font: 1.2em "Dancing Script";
+    font-size: 18px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: lightblue;
+    outline: none;
+    padding: 8px 18px 6px 18px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+#new-quote {
+    color: black;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+.button#new-quote {
+    float: left;
+}
+
+.button#tweet-quote {
+    float: right;
+    text-align: center;
+    font-size: 1.5em;
+    height: 30px;
+}
